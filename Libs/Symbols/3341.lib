@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 3341
+#
+DEF 3341 U 0 40 Y Y 1 L N
+F0 "U" -400 450 50 H V L BNN
+F1 "3341" -400 -400 50 H V L BNN
+F2 "LED_3341" 0 0 50 H I L BNN
+F3 "N/A" 0 0 50 H I L BNN
+F4 "Adafruit Industries" 0 0 50 H I L BNN
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 400 400 400 -300 N
+P 2 0 0 6 400 -300 -400 -300 N
+P 2 0 0 6 -400 -300 -400 400 N
+P 2 0 0 6 -400 400 400 400 N
+X VDD 1 600 300 200 L 40 40 0 0 W 
+X VDD 8 600 300 200 L 40 40 0 0 W 
+X GND 6 600 -200 200 L 40 40 0 0 W 
+X GND 7 600 -200 200 L 40 40 0 0 W 
+X CKI 5 -600 100 200 R 40 40 0 0 I C
+X SDI 4 -600 0 200 R 40 40 0 0 I 
+X CKO 2 600 100 200 L 40 40 0 0 O C
+X SDO 3 600 0 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
