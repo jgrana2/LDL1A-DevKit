@@ -1,1 +1,1 @@
-Life Data Link vital signs monitor project files.
+Life Data Link vital signs development kit project files.
