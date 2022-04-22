@@ -30,3 +30,5 @@ fp-info-cache
 # .gitignore
 *-rescue.*
 *.icloud
+Lifedatalink_v1_revA-backups/*
+Lifedatalink_v1_revA.kicad_prl

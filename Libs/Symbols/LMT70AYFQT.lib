@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LMT70AYFQT
+#
+DEF LMT70AYFQT U 0 40 Y Y 1 L N
+F0 "U" -300 200 50 H V L BNN
+F1 "LMT70AYFQT" -300 -300 50 H V L BNN
+F2 "BGA4C40P2X2_88X88X68" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Texas Instruments" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -300 -200 400 200 0 0 10 f
+X VDD A2 600 100 200 L 40 40 0 0 W 
+X GND A1 600 -100 200 L 40 40 0 0 W 
+X TAO B1 600 0 200 L 40 40 0 0 O 
+X T_ON B2 -500 0 200 R 40 40 0 0 I 
+ENDDRAW
+ENDDEF
+#
+# End Library

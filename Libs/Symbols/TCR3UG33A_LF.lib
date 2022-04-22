@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TCR3UG33A,LF
+#
+DEF TCR3UG33A,LF U 0 40 Y Y 1 L N
+F0 "U" -400 235 50 H V L BNN
+F1 "TCR3UG33A,LF" -400 -300 50 H V L BNN
+F2 "BGA4N35P2X2_64X64X33" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "IPC 7351B" 0 0 50 H I L BNN "STANDARD"
+F5 "2021-10-28" 0 0 50 H I L BNN "PARTREV"
+F6 "Toshiba" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "0.33mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+DRAW
+S -400 -200 400 200 0 0 10 f
+X VIN A1 -600 100 200 R 40 40 0 0 I 
+X CTRL B1 -600 -100 200 R 40 40 0 0 I 
+X VOUT A2 600 100 200 L 40 40 0 0 O 
+X GND B2 600 -100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
