@@ -18,4 +18,5 @@
   (lib (name "LMT70AYFQT")(type "Legacy")(uri "${KIPRJMOD}/Libs/Symbols/LMT70AYFQT.lib")(options "")(descr ""))
   (lib (name "ICS-43434")(type "Legacy")(uri "${KIPRJMOD}/Libs/Symbols/ICS-43434.lib")(options "")(descr ""))
   (lib (name "MLX90614ESF-AAA-000-TU")(type "Legacy")(uri "${KIPRJMOD}/Libs/Symbols/MLX90614ESF-AAA-000-TU.lib")(options "")(descr ""))
+  (lib (name "453-00052R")(type "Legacy")(uri "${KIPRJMOD}/Libs/Symbols/453-00052R.lib")(options "")(descr ""))
 )
